@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-      <Hero/>
-      <Products/>
+    <NavBar></NavBar>
+    <Hero />
+    <Products />
   </div>
 </template>
 
@@ -12,7 +13,8 @@ import Products from "@/sections/Products.vue";
 export default {
   name: "home",
   components: {
-    Hero,Products
+    Hero,
+    Products
   }
 };
 </script>

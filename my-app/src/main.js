@@ -8,10 +8,10 @@ import store from "./store";
 import "bootstrap";
 import jQuery from "jquery";
 window.$ = window.jQuery = jQuery;
-import "popper.js"
+import "popper.js";
 import "./assets/style.scss";
 
-Vue.component('NavBar', require('./components/NavBar.vue').default);
+Vue.component("NavBar", require("./components/NavBar.vue").default);
 
 Vue.config.productionTip = false;
 
